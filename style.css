@@ -1,0 +1,114 @@
+html {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: linear-gradient(to left, #242c39, #242c39);
+  font-family: "Kalam";
+}
+
+img {
+  position: absolute;
+  width: 978px;
+  height: 868px;
+  right: -319px;
+  top: 91px;
+}
+.passbox {
+  width: 672px;
+  height: 734.46px;
+  left: 360px;
+  top: 164px;
+  position: relative;
+  border-radius: 46.34px;
+
+  z-index: 2;
+  display: flex;
+  background: linear-gradient(
+    64.06deg,
+    rgba(36, 44, 57, 0.47) -172.64%,
+    rgba(207, 207, 207, 0.47) -65.37%
+  );
+  box-shadow: 0px 3.60916px 3.60916px rgba(0, 0, 0, 0.25);
+  /* filter: blur(2.25573px); */
+  backdrop-filter: blur(17.6312px);
+}
+h1 {
+  display: flex;
+  position: absolute;
+  left: 78px;
+}
+.h1 {
+  align-items: center;
+  width: 432px;
+  height: 90px;
+  left: 128px;
+  top: -40px;
+  border-radius: 35px;
+  /* display: inline; */
+  background-color: #202a41;
+  color: #fff;
+  /* color: #fff; */
+  position: absolute;
+}
+input {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  font-size: 25px;
+}
+::placeholder {
+  color: rgb(238, 238, 238);
+  opacity: 1; /* Firefox */
+  justify-self: center;
+  font-family: "Kalam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  padding-left: 25%;
+  color: #ffffff;
+}
+
+.password {
+  display: flex;
+  width: 511.41px;
+  height: 86.79px;
+  border-radius: 54.85px;
+  left: 87px;
+  top: 188px;
+  background-color: #242c39;
+  color: #fff;
+  position: absolute;
+}
+.repeatpass {
+  width: 501px;
+  height: 90.89px;
+  border-radius: 48.72px;
+  left: 94px;
+  top: 386px;
+  background-color: #2f4a8d;
+  color: #fff;
+  position: absolute;
+}
+button {
+  position: absolute;
+  width: 284.21px;
+  height: 103.88px;
+  border-radius: 65.65px;
+  left: 199px;
+  top: 576px;
+  background-color: #e7d33f;
+  font-family: "Kalam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52.3023px;
+  line-height: 83px;
+  color: #ffffff;
+}
+svg {
+  position: absolute;
+  width: 136.73px;
+  height: 136.73px;
+  left: 519.7px;
+  top: 19px;
+}
